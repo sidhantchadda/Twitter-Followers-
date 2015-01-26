@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.twitterfollowers"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <!-- Permission - Internet Connect -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Permission to Save Storage -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- Network State Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Permission on Boot -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- Receiver for Boot -->
+        <receiver android:name="com.example.twitterfollowers.RecieveBoot" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.example.twitterfollowers.AlarmReceiver" >
+        </receiver>
+
+        <activity
+            android:name="com.example.twitterfollowers.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="t4jsample"
+                    android:scheme="oauth" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.twitterfollowers.Get_Followers"
+            android:label="@string/title_activity_get__followers" >
+        </activity>
+
+        <!-- Activities for AdColony -->
+        <activity
+            android:name="com.jirbo.adcolony.AdColonyOverlay"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.jirbo.adcolony.AdColonyFullscreen"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.jirbo.adcolony.AdColonyBrowser"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+    </application>
+
+</manifest>

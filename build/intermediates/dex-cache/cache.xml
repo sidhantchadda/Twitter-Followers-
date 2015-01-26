@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/facebook/AndroidStudioProjects/TwitterFollowers++/app/libs/twitter4j-core-4.0.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="381cf31e9200c2902782f17248d2af18e2ab4c56">
+        <dex dex="/Users/facebook/AndroidStudioProjects/TwitterFollowers++/app/build/intermediates/pre-dexed/debug/twitter4j-core-4.0.2-075e9db824d3182ee87d983337bf6af455f320b3.jar" />
+    </item>
+    <item
+        jar="/Users/facebook/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/facebook/AndroidStudioProjects/TwitterFollowers++/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-dea102baa0b678a53ff21c04d4b35d0abc63137d.jar" />
+    </item>
+    <item
+        jar="/Users/facebook/AndroidStudioProjects/TwitterFollowers++/app/libs/adcolony.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ae3ae1d12ad3f01418113f63426d83f12f159433">
+        <dex dex="/Users/facebook/AndroidStudioProjects/TwitterFollowers++/app/build/intermediates/pre-dexed/debug/adcolony-213521f08a428d864e3bc9f1546c7ef7db8d94eb.jar" />
+    </item>
+    <item
+        jar="/Users/facebook/AndroidStudioProjects/TwitterFollowers++/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="/Users/facebook/AndroidStudioProjects/TwitterFollowers++/app/build/intermediates/pre-dexed/debug/classes-57e3534ec842885e1c44b8fe05d8bb3bc75b9693.jar" />
+    </item>
+
+</items>

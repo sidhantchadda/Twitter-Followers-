@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5DC2E8"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context="com.example.twitterfollowers.MainActivity" >
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Followers++"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:textSize="40sp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_marginTop="20dp"
+        >
+
+    </RelativeLayout>
+
+	<RelativeLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginBottom="50dp"
+	    
+	    >
+
+	    <Button
+	        android:id="@+id/sign"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="10dp"
+	        android:background="@drawable/button_selector"
+	        android:paddingBottom="10dp"
+	        android:paddingLeft="50dp"
+	        android:paddingRight="50dp"
+	        android:paddingTop="10dp"
+	        android:text="Sign In"
+	        android:textColor="#FFFFFF"
+	        android:textSize="40sp" />
+
+	    <TextView
+	        android:id="@+id/Timesleft"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_above="@+id/sign"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginBottom="10dp"
+	        android:text="Sign in 10 more times"
+	        android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/birds"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</LinearLayout>

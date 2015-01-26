@@ -1,0 +1,5 @@
+/Users/facebook/AndroidStudioProjects/TwitterFollowers++/app/build/intermediates/classes/debug
+/Users/facebook/AndroidStudioProjects/TwitterFollowers++/app/build/intermediates/pre-dexed/debug/adcolony-213521f08a428d864e3bc9f1546c7ef7db8d94eb.jar
+/Users/facebook/AndroidStudioProjects/TwitterFollowers++/app/build/intermediates/pre-dexed/debug/twitter4j-core-4.0.2-075e9db824d3182ee87d983337bf6af455f320b3.jar
+/Users/facebook/AndroidStudioProjects/TwitterFollowers++/app/build/intermediates/pre-dexed/debug/classes-57e3534ec842885e1c44b8fe05d8bb3bc75b9693.jar
+/Users/facebook/AndroidStudioProjects/TwitterFollowers++/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-dea102baa0b678a53ff21c04d4b35d0abc63137d.jar
